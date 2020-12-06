@@ -1,0 +1,11 @@
+GLuint objectID = 0;
+glGenObjects(1 , &objectID);
+
+glBindObject(GL_OBJECT_TARGET , objectID);
+
+glSetObjectOption(GL_OBJECT_TARGET, GL_OBJECT_OPTION1, 20);
+glSetObjectOption(GL_OBJECT_TARGET, GL_OBJECT_OPTION1, 60);
+
+glBindObject(GL_OBJECT_TARGET, 0);
+
+// core profile vs immediate mode

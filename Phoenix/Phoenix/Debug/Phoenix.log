@@ -1,2 +1,2 @@
-﻿  Phoenix.cpp
-  Phoenix.vcxproj -> D:\CodeFlambe\Phoenix-GameEngine\Phoenix\Debug\Phoenix.exe
+﻿  Application.cpp
+LINK : fatal error LNK1104: cannot open file 'glfw3.lib'
